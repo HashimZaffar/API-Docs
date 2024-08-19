@@ -1,0 +1,17 @@
+site_name: Introduction to RESTful APIs
+theme:
+  name: material
+  palette:
+    primary: 'blue'
+    accent: 'yellow'
+nav:
+  - Home: index.md
+  - What is REST?: what-is-rest.md
+  - HTTP Methods:
+      - GET: methods/get.md
+      - POST: methods/post.md
+      - PUT: methods/put.md
+      - DELETE: methods/delete.md
+  - Authentication: authentication.md
+  - Best Practices: best-practices.md
+  - Conclusion: conclusion.md
